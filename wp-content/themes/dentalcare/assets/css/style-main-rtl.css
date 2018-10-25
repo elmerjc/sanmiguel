@@ -1,0 +1,481 @@
+html, body {
+  direction: rtl;
+}
+html[dir="rtl"] .tt-header .main-nav > ul > li {
+  float: right;
+}
+html[dir="rtl"] .wpb_row {
+    float: left;
+}
+html[dir="rtl"] .tt-nav-tab-item:before{
+	right:0;
+	left:auto;
+	
+}
+html[dir="rtl"] div#swiper-unique-id-2 .swiper-slide {
+    margin-left: 30px!important;
+    margin-right: 0!important;
+}
+html[dir="rtl"] .tt-nav-tab-item:after{
+	transition: none;
+}
+
+
+html[dir="rtl"] .tt-subscribe-submit{
+	left:0;
+	right:auto;
+}
+html[dir="rtl"] .page-numbers li {
+    float: right;
+}
+html[dir="rtl"] .tt-search input[type="text"]{
+	padding-right: 20px;
+    padding-left: 75px;
+}
+html[dir="rtl"] .tt-search-submit{
+	left:0;
+	right:auto;
+}
+html[dir="rtl"] .tt-subscribe input:not([type="submit"]) {
+    padding-right: 20px;
+    padding-left: 70px;
+}
+
+html[dir="rtl"] .more-link:before {
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+html[dir="rtl"] .dentalcare_post_comments .form-submit:before{
+	-webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+html[dir="rtl"] .tt-not-found-entry{
+	    text-align: center;	
+}
+html[dir="rtl"] .tt-not-found-entry .col-md-9{
+	    width: 100%;
+}
+html[dir="rtl"] .custom-hover:before{
+	-webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+}
+
+@media(max-width:1100px){
+ html[dir="rtl"] .nav-t-holder .nav-t-header {
+    float: left;
+}
+html[dir="rtl"] .nav-t-holder .nav-t-footer ul.nav > li > a {
+    text-align: right;
+}
+html[dir="rtl"] .nav-t-footer ul.nav li.menu-item-has-children > a > button {
+    left: 15px;
+    right: auto;
+}
+}
+html[dir="rtl"] .vc_row.wpb_row.vc_inner.vc_row-fluid.tt-reply.white.index2form {
+    width: 100%!important;
+}
+@media(max-width: 991px) {
+	html[dir="rtl"] .features .tt-feature {
+    padding-left: 0;
+}
+
+	 html[dir="rtl"] .vc_row.wpb_row.vc_inner.vc_row-fluid.tt-reply.white.index2form {
+    width: 100%;
+}
+  html[dir="rtl"] .tt-header .main-nav > ul > li {
+    float: left;
+    width: 100%;
+  }
+  html[dir="rtl"] .tt-header .top-inner {
+    text-align: right;
+}
+ html[dir="rtl"] .tt-header .cmn-toggle-switch {
+    float: left;
+	
+}
+ html[dir="rtl"] .tt-header .menu-toggle{
+	left:9px;
+	right:auto;
+}
+ html[dir="rtl"] .tt-header .main-nav > ul > li > a,  html[dir="rtl"] .tt-header .main-nav > ul > li > a:focus{
+	text-align:right;
+}
+html[dir="rtl"]  .nav-t-holder .nav-t-footer ul.nav > li ul.sub-menu li a, html[dir="rtl"]  .tt-header .main-nav > ul > li > ul > li > a{
+	text-align:right;
+}
+}
+html[dir="rtl"] .tt-header .top-info:before {
+  right: auto;
+  left: 0;
+}
+html[dir="rtl"] .tt-header .top-info {
+  padding-right: 0;
+  padding-left: 20px;
+  margin-right: 0;
+  margin-left: 20px;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .tt-header .top-info {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  html[dir="rtl"] .tt-footer-inner {
+    text-align: right;
+  }
+  html[dir="rtl"] .tt-foooter-title::after {
+    margin-right: 0;
+  }
+  html[dir="rtl"] .wpb_row {
+    float: none;
+}
+
+}
+html[dir="rtl"] .tt-header .top-info:last-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+html[dir="rtl"] .tt-header .top-social li {
+  margin-right: 0;
+  margin-left: 12px;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .tt-header .top-social li {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+   html[dir="rtl"] .tt-widget,  html[dir="rtl"] .tt-post-info {
+    text-align: right;
+}
+}
+html[dir="rtl"] .tt-header .nav-more {
+  margin-left: 0;
+  margin-right: 12px;
+}
+html[dir="rtl"] .tt-header .top-inner {
+  float: right;
+}
+@media(max-width: 991px) {
+  html[dir="rtl"] .tt-header .top-inner {
+    float: left;
+    width: 100%;
+  }
+  html[dir="rtl"] .tt-header .top-line {
+    position: relative;
+    background: #f6f6f6;
+    text-align: right;
+    z-index: 2;
+}
+}
+html[dir="rtl"] .tt-header .toggle-block {
+  float: left;
+}
+
+html[dir="rtl"] .c-btn-2, html[dir="rtl"] .c-btn-2:link {
+  float: left;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .c-btn-2, html[dir="rtl"] .c-btn-2:link {
+    float: none;
+  }
+  html[dir="rtl"] .tt-copy-left {
+    text-align: right!important;
+}
+ html[dir="rtl"] .tt-copy-right,  html[dir="rtl"] .tt-copy-left {
+    text-align: right!important;
+}
+}
+html[dir="rtl"] .tt-feature {
+  text-align: right;
+  padding-right: 0;
+  padding-left: 40px;
+}
+
+html[dir="rtl"] .tt-testimonial-img,
+html[dir="rtl"] .width-nine-plus .col-sm-5.col-md-6 {
+  float: right;
+}
+html[dir="rtl"] .tt-testimonial-user {
+  padding-left: 0;
+  padding-right: 84px;
+}
+
+html[dir="rtl"] .tt-archive-bottom span {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+html[dir="rtl"] .tt-location-icon {
+  float: right;
+}
+html[dir="rtl"] .tt-location-info {
+  padding-left: 0;
+  padding-right: 70px;
+}
+html[dir="rtl"] .tt-location-info .simple-text {
+  text-align: right;
+}
+html[dir="rtl"] .tt-location-tel {
+  text-align: right;
+      direction: ltr;
+}
+html[dir="rtl"] .tt-available a{
+	 direction: ltr;
+}
+html[dir="rtl"] .tt-profile-phone a{
+	 direction: ltr;
+}
+html[dir="rtl"] .top_bar p{
+	text-align:left;
+}
+html[dir="rtl"] .footer-2 .menu a  {
+  padding-left: 0;
+  padding-right: 18px;
+}
+html[dir="rtl"] .footer-2 .menu a:before {
+  left: auto;
+  right: 0;
+}
+html[dir="rtl"] .tt-copy-left {
+  text-align: left;
+}
+html[dir="rtl"] .tt-socail li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+html[dir="rtl"] .tt-working-cell {
+  text-align: right;
+}
+
+html[dir="rtl"] .tt-widget-list a::before {
+  left: 0;
+  right: auto;
+}
+@media(max-width: 767px) {
+  html[dir="rtl"] .tt-widget-list a::before {
+    right: 0;
+    left: auto;
+  }
+  html[dir="rtl"] .tt-image-row .col-md-offset-4 .col-sm-6.col-md-5 {
+    float: none!important;
+}
+  html[dir="rtl"] .dental_practice .content h3{
+	text-align:right;
+}
+html[dir="rtl"] .dental_practice .content p{
+	text-align:right;
+}
+html[dir="rtl"] .book_appointment .form4 .c-btn {
+    float: none!important;
+    margin-right: 15px;
+}
+html[dir="rtl"] .book_appointment .form4 input.appoint{
+	text-align:center;
+}
+html[dir="rtl"] .c-btn input{
+	text-align:center;
+}
+}
+@media (min-width: 992px){
+html[dir="rtl"] .nav-t-holder .nav-t-footer ul.nav > li > ul.sub-menu,
+html[dir="rtl"] .tt-header .main-nav > ul > li > ul {
+    right: 0;
+    padding-right: 0;
+    text-align: right;
+}
+html[dir="rtl"]  .tt-header .main-nav > ul > li > ul > li,
+html[dir="rtl"] .tt-header .main-nav > ul > li > ul > li > a{
+	text-align: right;
+}
+} 
+html[dir="rtl"] .tt-blog-label .fa {
+  margin-right: 0;
+  margin-left: 10px;
+}
+html[dir="rtl"] .tt-blog-label.tags .fa {
+  margin-right: 0;
+  margin-left: 5px;
+}
+html[dir="rtl"] .tt-blog-label {
+  margin-right: 0;
+  margin-left: 26px;
+}
+
+html[dir="rtl"] .tt-pagination li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+html[dir="rtl"] .type-2.tt-subscribe input:not([type="submit"]) {
+  margin-right: 0;
+  margin-left: 27px;
+}
+
+html[dir="rtl"] .tt-offers-inner-text {
+  margin-left: 0;
+  margin-right: 13px;
+}
+
+html[dir="rtl"] .tt-profile-social li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+html[dir="rtl"] .tt-profile-email {
+  text-align: right;
+}
+html[dir="rtl"] .tt-profile-phone .fa {
+  margin-right: 0;
+  margin-left: 15px;
+}
+html[dir="rtl"] .tt-profile-phone {
+  padding-left: 0;
+  padding-right: 15px;
+}
+html[dir="rtl"] .footer-2 .menu, 
+html[dir="rtl"] .footer-3 ul.tt-socail,
+html[dir="rtl"] .tt-archive,
+html[dir="rtl"] .widget_categories ul,
+html[dir="rtl"] .tt-share ul,
+html[dir="rtl"] .tt-header ul {
+    padding-right: 0;
+}
+html[dir="rtl"] .tt-image-row .col-md-offset-4 .col-sm-6.col-md-5 {
+    float: right;
+}
+html[dir="rtl"] .tt-profile-info {
+    overflow: hidden;
+}
+html[dir="rtl"] .tt-reply.white,
+html[dir="rtl"] .c-input.brd-grey,
+html[dir="rtl"] .c-area.brd-grey,
+html[dir="rtl"] input, 
+html[dir="rtl"] textarea, 
+html[dir="rtl"] select,
+html[dir="rtl"] .tt-block.responsive-error .col-md-offset-2,
+html[dir="rtl"] .tt-reply.wth-label {
+    text-align: right;
+}
+html[dir="rtl"] .col-md-push-3 .pleft30,
+html[dir="rtl"] .tt-not-found-entry .col-md-9,
+html[dir="rtl"] .container.margin-zero-auto {
+    float: none !important;
+}
+html[dir="rtl"] .container.margin-zero-auto .position-left {
+    width: 100%;
+}
+html[dir="rtl"] .tp-parallax-wrap {
+    left: 70%!important;
+}
+html[dir="rtl"] .tp-parallax-wrap:last-child {
+    left: 56%!important;
+}
+html[dir="rtl"] .position-left .wpb_wrapper {
+	width: 100%;
+}
+/* Home Page Two */
+
+html[dir="rtl"] #header .nav_bg .nav-menu.pull-left.text-left,
+html[dir="rtl"] #header .thm-container .logo.pull-left {
+    float: right !important;
+}
+html[dir="rtl"] #header .nav_bg .nav-search.pull-right.text-right,
+html[dir="rtl"] #header .header-right-info {
+    float: left !important;
+}
+html[dir="rtl"] .list-padd {
+    padding-right: 0;
+}
+html[dir="rtl"] .nav {
+    padding-right: 0;
+}
+html[dir="rtl"] .nav-t-holder .nav-t-footer ul.nav > li > a {
+    border-left: 1px solid #5a5d85;
+	border-right: none;
+}
+html[dir="rtl"] .nav-t-holder .nav-t-footer ul.nav > li:last-child > a{
+	border: none;
+}
+html[dir="rtl"] #header .header-right-info ul li {
+    padding-right: 0;
+    padding-left: 20px;
+}
+html[dir="rtl"] #header .nav_bg {
+    margin-left: 0;
+}
+html[dir="rtl"] #header .social_icon ul li {
+    float: right;
+    padding-right: 0;
+	padding-left: 16px;
+}
+html[dir="rtl"] .tt-block.margin-bottom-discount .wpb_single_image.vc_align_left, 
+html[dir="rtl"] .tt-accordeon.type-2 .index2acc.tt-accordion-active .vc_tta-panel-heading h4.vc_tta-panel-title,
+html[dir="rtl"] .questions .tt-accordeon.type-2 .vc_tta-panel-heading h4.vc_tta-panel-title{
+    text-align: right;
+}
+html[dir="rtl"] .tt-block.margin-bottom-discount .vc_column_container {
+    float: right;
+}
+html[dir="rtl"] .features .tt-feature {
+    padding-left: 175px;
+}
+html[dir="rtl"] .slider_bottom .hour {
+    padding-right: 60px;
+}
+html[dir="rtl"] .slider_bottom ul {
+    padding-right: 0;
+}
+html[dir="rtl"] .ml15{
+	margin-right: 15px;
+}
+html[dir="rtl"] .book_appointment .form4 .c-btn {
+    float: right;
+    margin-right: 15px;
+}
+html[dir="rtl"] .tt-block.our-service .grid-sm-6.grid-md-4,
+html[dir="rtl"] .successful_story h4 i {
+    float: right;
+}
+html[dir="rtl"] .questions .tt-accordeon.type-2 .vc_tta-panel-heading h4.vc_tta-panel-title a i.vc_tta-controls-icon.vc_tta-controls-icon-plus,
+html[dir="rtl"] .tt-accordeon.type-2 .vc_tta-panel-heading h4.vc_tta-panel-title a i.vc_tta-controls-icon.vc_tta-controls-icon-plus,
+html[dir="rtl"] .tt-accordeon.type-1 .vc_tta-panel-heading h4.vc_tta-panel-title a i.vc_tta-controls-icon.vc_tta-controls-icon-triangle {
+    right: 95%;
+}
+html[dir="rtl"] .tt-accordeon.type-2 .vc_tta-panel-heading h4.vc_tta-panel-title a,
+html[dir="rtl"] .tt-advantage-title,
+html[dir="rtl"] .tt-advantage-text,
+html[dir="rtl"] .tt-advantage p,
+html[dir="rtl"] .tt-accordeon.type-1 .vc_tta-panel-heading h4.vc_tta-panel-title a,
+html[dir="rtl"] .vc_tta.vc_general.tt-accordeon.type-1 .vc_tta-panel-body .simple-text,
+html[dir="rtl"] .tt-accordeon.type-2 .index2acc.tt-accordion-active .vc_tta-panel-body p {
+    text-align: right;
+}
+html[dir="rtl"] .tt-accordeon.type-2 .vc_tta-panel-heading h4.vc_tta-panel-title a {
+    padding-right: 15px !important;
+}
+html[dir="rtl"] .c-btn:before {
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+
+}
+html[dir="rtl"] .rtl_float_none{
+	float: none;
+}
+html[dir="rtl"] .owl-carousel .owl-stage {
+    float: left;
+}
+html[dir="rtl"] .c-btn.input input {
+  text-align: center;
+}html[dir="rtl"] .nav-t-holder .nav-t-footer ul.nav > li > ul.sub-menu > li > ul.sub-menu,html[dir="rtl"] .tt-header .main-nav > ul > li > ul > li > ul {    left: 0;    right: 100.5%;    padding-right: 0;}html[dir="rtl"] .tt-header .main-nav > ul > li > ul > li > ul > li{	text-align: right;}
+
+html[dir="rtl"] .tp-resizeme {
+    text-align: right!important;
+}

@@ -1,0 +1,37 @@
+.row {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 0;
+}
+.meta-lable {
+    width: 20%;
+    float: left;
+}
+.meta-lable {
+	display: inline-block;
+	margin-right: 10px;
+}
+.meta-value {
+	display: inline-block;
+	width: 80%;
+}
+.dentalcare_metabox_image {
+	width: 100%;
+}
+.meta-value img.custom_preview_image {
+	width: 5%;
+	display: inline-block;
+	float: left;
+	margin: 0 15px;
+}
+.meta-value input.ind_upload_image.upload_button_dentalcare_services_icon.button-primary {
+	width: 20%;
+	display: inline-block;
+	float: left;
+	margin: 0 15px;
+}
+.meta-lable label {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: inherit;
+	color: inherit;
+}
